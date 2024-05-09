@@ -20,7 +20,13 @@ async function userData(){
 function userInformation(id){
     return Promise((resolve,reject)=>{
         setTimeout(()=>{
-            const userInfo={}
-        })
+            const userInfo={id,name:`user$id`,age:30}
+            resolve(userIds)
+
+        },3000)
     })
 }
+userData()
+
+
+
